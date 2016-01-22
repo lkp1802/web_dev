@@ -1,45 +1,61 @@
 <!doctype html>
 <html>
 <head>
-    <title>First Web</title>
+    <title>Playing with HTML</title>
 
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
 </head>
 
 <body>
 <div>
-	<h1>This is a huge header</h1>
-	<h2>This is a smaller</h2>
-	<p> My first line goes here
-		How about enter?
-		Okay. Space then (             )
-		<br />I'm down here
-	</p>
+	<form>
+		<input type="email" placeholder="type here..." name="email" />
+		<br/><br/>
 
-	<p><strong>This is in bold</strong></p>
-	<p><em>Here is italic</em></p>
-	<u>Underlined.<strike> Cross me </strike></u>
-	<hr />
-	<h2>Bullet Point!!!</h2>
-	<ul>
-		<li>Pizza</li>
-		<li>Burger</li>
-	</ul>	
-	<h3>Here is my second list (orderd this time</h3>
-	<ol>
-		<li>a</li>
-		<li>b</li>
-		<li>c</li>
-	</ol>
+		<textarea> My Content goes here</textarea>
+		<br><br>
 
-	<hr />
-	<h2>Image Time!!!!!</h2>
-	<img src="http://nj.gov/oag/newsreleases13/Tuan-Dang.jpg">
-	<a href=""></a>
+		<select>
+			<option>Select an option..</option>
+			<option>1. Doctor</option>
+			<option>2. Engineer</option>
+		</select>
+
+		<br>
+		<! Can only select ONE dot>	
+		<input type="radio" name="color"/> Dog
+		<input type="radio" name="color"/> Cat
+
+		<br>
+
+		<p>versus</p>
+
+		<br>
+
+		<! Can select multiple "dot">
+		<input type="radio" name="dog" value="1"/> Dog
+		<input type="radio" /> Cat
+		
+		<br>
+
+		<p>Now is check-box</p>
+
+		<br>
+		<input type="checkbox"/> Red
+		<input type="checkbox"/> Yellow
+
+		<br>
+
+		<! Used with parameter 'name' in input tags submit to link - add name to address bar - check email placeholder above>
+		<input type="submit" value="Save">
+
+
+
+	</form>
+		
 </div>
 </body>
 </html>
-
