@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <title>Playing with HTML</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+<div>
+
+	<!Anchor to be linked to later>
+		<a name="top"/>
+	<form>		
+		<input type="email" placeholder="type here..." name="email" />
+		<br/><br/>
+
+		<textarea> My Content goes here</textarea>
+		<br><br>
+
+		<select>
+			<option>Select an option..</option>
+			<option>1. Doctor</option>
+			<option>2. Engineer</option>
+		</select>
+
+		<br>
+		<! Can only select ONE dot>	
+		<input type="radio" name="color"/> Dog
+		<input type="radio" name="color"/> Cat
+
+		<br>
+
+		<p>versus</p>
+
+		<br>
+
+		<! Can select multiple "dot">
+		<input type="radio" name="dog" value="1"/> Dog
+		<input type="radio" /> Cat
+		
+		<br>
+
+		<p>Now is check-box</p>
+
+		<br>
+		<input type="checkbox"/> Red
+		<input type="checkbox"/> Yellow
+
+		<br>
+
+		<! Used with parameter 'name' in input tags submit to link - add name to address bar - check email placeholder above>
+		<input type="submit" value="Save">
+
+	<!Internal (hyper)link to top, where anchored with name="top">
+	<p><a href="#top">Back to top</a></p>		
+</div>
+</body>
+</html>
